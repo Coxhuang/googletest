@@ -12,7 +12,7 @@ set(GOOGLETEST_VERSION 1.11.0)
 
 list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_LIST_DIR}/cmake")
 include(cmake/cater.cmake)
-set (PACKAGE_NAME        "trunk_googletest")
+set (PACKAGE_NAME        "tmaps_googletest")
 set (PACKAGE_VERSION     "1.11.0")
 set (PACKAGE_STRING      "${PACKAGE_NAME} ${PACKAGE_VERSION}")
 set (PACKAGE_TARNAME     "${PACKAGE_NAME}-${PACKAGE_VERSION}")
